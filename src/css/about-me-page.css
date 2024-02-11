@@ -59,6 +59,10 @@ padding-bottom: 32px;
     text-transform: uppercase;
     color: #705a66;
   }
+
+.about-subtitle:nth-child(2) {
+  flex-direction: column;
+}
   
   .about-text {
     font-family: "Montserrat";
@@ -66,10 +70,10 @@ padding-bottom: 32px;
     font-size: 16px;
     color: #705a66;
   }
-  
-  /* .about-list {
-      flex-direction: row;
-  } */
+
+.about-list {
+  display: flex;
+}
   
   .faq-title {
     font-family: 'Moniqa Black Display';
